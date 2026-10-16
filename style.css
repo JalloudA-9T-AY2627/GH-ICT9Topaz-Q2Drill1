@@ -1,0 +1,25 @@
+
+.card-container {
+  display: flex;
+  flex-direction: row;       
+  justify-content: center;    
+  align-items: stretch;        
+  gap: 20px;                  
+}
+
+.card {
+  flex: 1;                   
+  max-width: 300px;           
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  width: 100%;             
+  padding: 20px 0;         
+}
+
+.centered-image {
+  max-width: 200px;        
+}
